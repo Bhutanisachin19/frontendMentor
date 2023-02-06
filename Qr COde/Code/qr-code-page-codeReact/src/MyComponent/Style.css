@@ -1,0 +1,27 @@
+.Qr-Container {
+    background: hsl(0, 0%, 100%);
+    padding: 10px;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    padding-bottom: 80px;
+}
+
+.img-tag{
+    width: 90%;
+    height: 70%; 
+    border-radius: 25px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.improve-header-text {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: 700;
+}
+
+.span-tag{
+    font-size: 15px;
+    font-weight: 400;
+}
