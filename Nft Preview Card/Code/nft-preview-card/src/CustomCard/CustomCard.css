@@ -1,0 +1,94 @@
+.container {
+    height: 550px;
+    width: 350px;
+    border-radius: 25px;
+    background:  hsl(216, 50%, 16%);
+}
+
+.image-style {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+
+.name-p{
+    text-align: left;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.line-p{
+    color : hsl(215, 51%, 70%);
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.info-div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.span-1{
+    color: hsl(178, 100%, 50%);
+    font-weight: 300;
+}
+
+.span-2{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+
+.icon-img-tag{
+    margin-right: 4px;
+}
+
+.img-txt-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-tag{
+    width: 82%;
+    margin-top: 15px;
+    opacity: 0.25;
+}
+
+.avatarImage{
+    height: 35px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.lastContentWrapper{
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+
+.span-wrapper{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.span-wrapper-child-1{
+    color : hsl(215, 51%, 70%);
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.span-wrapper-child-2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
