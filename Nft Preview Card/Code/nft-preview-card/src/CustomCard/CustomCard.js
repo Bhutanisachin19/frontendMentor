@@ -3,11 +3,17 @@ import CardImage from "../images/image-equilibrium.jpg";
 import etherIcon from "../images/icon-ethereum.svg";
 import clockIcon from "../images/icon-clock.svg";
 import imageAvatar from "../images/image-avatar.png";
+import iconView from "../images/icon-view.svg";
 
 const CustomCard = () => {
   return (
     <div className="container">
-      <img className="image-style" src={CardImage} />
+      <div className="image-wrapper">
+        <img className="image-style" src={CardImage} />
+        <div class="overlay">
+          <img id="image-hover" src={iconView} />
+        </div>
+      </div>
 
       <p className="name-p">Equilibrium #3429</p>
 

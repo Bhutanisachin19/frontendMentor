@@ -12,13 +12,17 @@
     border-radius: 25px;
 }
 
-
 .name-p{
     text-align: left;
     color: hsl(0, 0%, 100%);
     font-size: 18px;
     padding-left: 30px;
     font-weight: 600;
+}
+
+.name-p:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .line-p{
@@ -92,3 +96,44 @@
     color: hsl(0, 0%, 100%);
     font-weight: 400;
 }
+
+.span-wrapper-child-2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.overlay {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 25px;
+  }
+  
+  .image-wrapper:hover .overlay {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+
+  .overlay #image-hover {
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -30%);
+  }
