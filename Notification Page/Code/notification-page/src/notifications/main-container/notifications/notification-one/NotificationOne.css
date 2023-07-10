@@ -1,0 +1,40 @@
+.noti-container-one {
+  padding: 10px;
+  background-color: hsl(210, 60%, 98%);
+  display: flex;
+  /* align-items: center; */
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.text-container-notify-one {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.highlighted-text {
+  font-weight: 500;
+  color: hsl(219, 14%, 63%);
+}
+
+.highlighted-text-blue {
+  font-weight: 500;
+  color: hsl(219, 85%, 26%);
+}
+
+.noti-container-four {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.content-span {
+  border: 1px solid hsl(205, 33%, 90%);
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 4px;
+  color: hsl(219, 12%, 42%);
+}
+
+.chess-img {
+  margin-left: auto;
+}

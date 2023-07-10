@@ -1,0 +1,16 @@
+.top-container {
+  border-radius: 20px;
+  height: 80%;
+  width: 60%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+}

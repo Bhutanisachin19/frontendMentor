@@ -1,0 +1,34 @@
+.container {
+  background-color: hsl(210, 60%, 98%);
+  /* height: 100vh; // in mobile view it gives issue as there is a lot of spacing on the top , to fix use min-height; */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (max-width: 375px) {
+    background-color: white;
+    /* overflow: scroll; */
+  }
+}
+
+.user-img {
+  height: 50px;
+  width: 50px;
+}
+
+.user-name-text {
+  font-weight: 800;
+}
+
+.user-time {
+  color: hsl(219, 14%, 63%);
+}
+
+.span-dot {
+  height: 8px;
+  width: 8px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  display: inline-block;
+}
