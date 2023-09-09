@@ -1,0 +1,38 @@
+.footer-container {
+  background-color: hsl(0, 0%, 0%);
+  height: 160px;
+  margin-bottom: 10px;
+}
+
+.left-area {
+  color: hsl(0, 0%, 100%);
+}
+
+.right-area {
+  color: hsl(0, 0%, 100%);
+}
+
+.top-footer-div {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rights-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 55%);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-item {
+  margin-right: 18px;
+}

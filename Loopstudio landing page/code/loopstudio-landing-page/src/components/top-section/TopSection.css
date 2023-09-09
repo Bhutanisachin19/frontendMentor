@@ -1,0 +1,74 @@
+@import url("https://fonts.google.com/specimen/Alata");
+@import url("https://fonts.google.com/specimen/Josefin+Sans");
+
+.top-section-container {
+  /* background-size: 100% 100%; */
+  /* background-image: url("/src/images/desktop/image-hero.jpg"); */
+
+  /* background-color: #cccccc; */
+  /* height: 500px; */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+  /* position: relative;
+
+  padding: 40px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+*/
+
+  /* background: url("/src/images/desktop/image-hero.jpg") no-repeat center; */
+  /* background-size: cover; */
+
+  position: relative;
+  min-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: #cccccc;
+  background-image: url("/src/images/desktop/image-hero.jpg");
+  background-position: center 40%;
+}
+
+.top-section-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 80px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.nav-item {
+  margin-right: 35px;
+}
+
+.main-name {
+  font-family: Alata;
+}
+
+.immence-experience-container {
+  border: hsl(0, 0%, 100%) 2px solid;
+  margin-top: 100px;
+  height: 250px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 40px;
+}
+
+.experince-text {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  font-family: Alata;
+  font-size: 50px;
+}

@@ -1,0 +1,38 @@
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see-all-button {
+  padding: 10px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.img-arry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img-arry-item {
+  margin-top: 20px;
+  opacity: 0.9;
+}
+
+.img-arry-container {
+  position: relative;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.image-text-span {
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
+  left: 0px;
+}
